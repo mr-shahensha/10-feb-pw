@@ -13,10 +13,10 @@ nav ul{
 }
 nav ul li{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 nav ul li a{
-    margin: 8px 15px;
+    margin: 8px 10px;
     padding:2px 15px;
     text-decoration: none;
 }
@@ -64,6 +64,7 @@ nav ul li a{
     width: 30vw;
 }
 .projects{
+    margin-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,4 +75,41 @@ nav ul li a{
     margin: 5px;
     border-bottom: 7px solid blue;
 }
-
+img[alt="images"]{
+    width: 20vw;
+}
+.projects .all-projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px; 
+}
+.projects .project-pics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h1{
+    font-size: 40px;
+    margin: 25px;
+    border-bottom: 7px solid blue;
+}
+footer .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 3%;
+}
+footer .logos img[alt="social"]{
+    width:40px;
+}
