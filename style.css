@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+nav ul li a{
+    margin: 8px 15px;
+    padding:2px 15px;
+    text-decoration: none;
+}
+.active, nav ul li a:hover{
+    background: rgb(100, 100, 224);
+    border-radius: 15px;
+}
+.hero{
+    max-width: 100vw;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.hero .left-hero-section{
+    display: flex;
+    flex-direction: column;
+}
+.hero .left-hero-section .part-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+.hero .left-hero-section .part-one img{
+    width:40px;
+}
+.hero .left-hero-section .part-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.hero .left-hero-section .part-two h1{
+  font-size: 50px;  
+}
+.hero .left-hero-section .part-two h2{
+    font-size: 35px;
+    color: rgb(197, 197, 89);
+}
+.hero .right-hero-section img{
+    width: 30vw;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects h1{
+    font-size: 40px;
+    margin: 5px;
+    border-bottom: 7px solid blue;
+}
+
