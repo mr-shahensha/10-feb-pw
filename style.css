@@ -20,6 +20,10 @@ nav ul li a{
     padding:2px 15px;
     text-decoration: none;
 }
+img[alt="menu"]{
+    width: 20px;
+    display: none;
+}
 .active, nav ul li a:hover{
     background: rgb(100, 100, 224);
     border-radius: 15px;
