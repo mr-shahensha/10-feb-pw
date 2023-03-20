@@ -117,3 +117,83 @@ footer .logos{
 footer .logos img[alt="social"]{
     width:40px;
 }
+@media (max-width:580px){
+    nav ul {
+        display: none;;
+    }
+    img[alt="menu"]{
+        margin: 2%;
+        display: block;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    .hero .left-hero-section .part-one img{
+        width:20px;
+    }
+    .hero .left-hero-section .part-one{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-size: 30px;
+    }
+    .hero .left-hero-section .part-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        font-size: 20px;
+    }
+    .hero .left-hero-section .part-two h1{
+        font-size: 35px;  
+      }
+      .hero .left-hero-section .part-two h2{
+          font-size: 25px;
+          text-align: center;
+          color: rgb(197, 197, 89);
+      }
+      .hero .right-hero-section img{
+          width: 30vw;
+      }
+      .projects{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects h1{
+        font-size: 26px;
+        margin: 3px;
+        border-bottom: 4px solid blue;
+    }
+    .projects .all-projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px; 
+    }
+    img[alt="images"]{
+        width: 50vw;
+    }
+    footer h1{
+        font-size: 26px;
+        margin: 20px;
+        border-bottom: 3px solid blue;
+    }
+    footer .logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 3%;
+    }
+    footer .logos img[alt="social"]{
+        width:30px;
+    }
+}
